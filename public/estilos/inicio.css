@@ -39,14 +39,14 @@ body {
     box-shadow: 3px 3px 15px rgb(88, 88, 88);
 }
 
-/*.Contenedor_Nubes {
+.Contenedor_Decoracion--Nubes {
     position: absolute;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
     margin-top: 26rem;
-}*/
+}
 
 .Nubes-Img {
     width: 35%;
