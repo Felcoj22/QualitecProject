@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Harrington;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat SemiBold;
+    font-size: 25px;
+}
