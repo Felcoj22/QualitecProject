@@ -5,7 +5,9 @@ h1 {
 }
 
 body {
-    background: linear-gradient(to bottom, #5B4E9D 50%, #EFCAFD);
+    background-image: url("../recursos/Backgroung.png"), linear-gradient(to bottom, #5B4E9D 50%, #EFCAFD);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .Contenedor {
@@ -15,12 +17,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-/*.Contenedor_Estrellas {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-}*/
 
 .Estrellas-Img {
     width: 95%;
@@ -37,17 +33,4 @@ body {
     padding: 15px 32px;
     border-radius: 1rem;
     box-shadow: 3px 3px 15px rgb(88, 88, 88);
-}
-
-.Contenedor_Decoracion--Nubes {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-top: 26rem;
-}
-
-.Nubes-Img {
-    width: 35%;
 }
