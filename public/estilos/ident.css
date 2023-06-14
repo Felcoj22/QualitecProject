@@ -1,0 +1,56 @@
+.Contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Contenedor-Imagen{
+  height: 100vh;
+  position: fixed;
+}
+
+.Contenedor-Titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 36%;
+}
+  .T1{
+    font-family: Montserrat;
+    color: rgba(115, 119, 255, 0.5);
+    font-weight: 600;
+    font-size: 130px;
+  }
+  .T2 {
+    color: #7377FF;
+    font-weight: lighter;
+    font-size: 130px;
+  }
+
+.Contenedor-Texto {
+  display: flex;
+  width: 75vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+  font-size: 35PX;
+  color: #7377FF;
+  text-align: center;
+  font-family: Montserrat;
+}
+  .P2{
+    padding-top: 10%;
+    padding-bottom: 12%;
+  }
+
+.Contenedor-Boton{
+    background: linear-gradient(to bottom, #7377FF, #5B4E9D 25%);
+    margin-top: none;
+    padding: 15px 32px;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 15px rgb(88, 88, 88);
+}

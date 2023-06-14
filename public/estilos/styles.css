@@ -14,3 +14,16 @@ a {
     font-family: Montserrat SemiBold;
     font-size: 25px;
 }
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #a4a7ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7377FF;
+    border-radius: 4px;
+}

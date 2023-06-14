@@ -8,6 +8,7 @@ body {
     background-image: url("../recursos/Backgroung.png"), linear-gradient(to bottom, #5B4E9D 50%, #EFCAFD);
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .Contenedor {
