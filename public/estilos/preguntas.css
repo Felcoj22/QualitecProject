@@ -1,0 +1,49 @@
+body {
+  background: radial-gradient(circle, #5B4E9D, #3C3D48);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Contenedor {
+  background-image: url(../recursos/NubesPre.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Montserrat;
+}
+
+.Contenedor-Texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0% 30%;
+  font-size: 56px;
+  color: #EFCAFD;
+}
+
+  .MarcoPregunta{
+    position: absolute;
+    padding-top: 8%;
+  }
+
+.Contenedor-Boton{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 16%;
+}
+
+  .BotonEstilo{
+    background: linear-gradient(to bottom, #7377FF 12%, #5B4E9D);
+    border-color: #707070;
+    border-radius: 1rem;
+    padding: 16px 32px;
+    font-size: 46px;
+    text-align: center;
+    color: #EFCAFD;
+  }

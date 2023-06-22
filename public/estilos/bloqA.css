@@ -24,7 +24,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8%;
+  margin-bottom: 14%;
 }
 
 .T1 {
@@ -46,7 +46,6 @@ body{
 }
 
 .Contenedor-Boton {
-  position: absolute;
   background: linear-gradient(to bottom, #7377FF, #5B4E9D 25%);
   margin-top: none;
   padding: 15px 32px;
