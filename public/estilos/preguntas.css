@@ -34,16 +34,29 @@ body {
 
 .Contenedor-Boton{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding-top: 16%;
 }
 
-  .BotonEstilo{
+  .BotonSi {
     background: linear-gradient(to bottom, #7377FF 12%, #5B4E9D);
     border-color: #707070;
+    border: 0;
     border-radius: 1rem;
-    padding: 16px 32px;
+    padding: 16px 36px;
+    margin-right: 130px;
     font-size: 46px;
     text-align: center;
-    color: #EFCAFD;
+    color: #FFFFFF;
+  }
+  .BotonNo{
+    background: linear-gradient(to bottom, #7377FF 12%, #5B4E9D);
+    border-color: #707070;
+    border: 0;
+    border-radius: 1rem;
+    padding: 16px 32px;
+    margin-left: 130px;
+    font-size: 46px;
+    text-align: center;
+    color: #FFFFFF;
   }
