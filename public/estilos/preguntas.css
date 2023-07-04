@@ -22,10 +22,21 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0% 30%;
+  padding: 0 625px;
   font-size: 56px;
   color: #EFCAFD;
 }
+  .InterPregunta1{
+    position: absolute;
+    padding-right: 650px;
+    padding-bottom: 100px;
+  }
+
+  .InterPregunta2{
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 150px;
+  }
 
   .MarcoPregunta{
     position: absolute;
