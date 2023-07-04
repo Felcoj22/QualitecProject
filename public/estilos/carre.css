@@ -1,9 +1,12 @@
 body {
   background-color: #5B4E9D;
-  background-image: url(../recursos/OlasBA.png);
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+h1 {
+  margin: 0;
 }
 
 .Contenedor {
@@ -11,7 +14,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .Contenedor-Imagen {
@@ -24,25 +26,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 14%;
 }
 
 .T1 {
-  position: absolute;
   font-family: Montserrat;
-  color: #E2B2F5;
+  color: rgba(255, 255, 255, 50%);
   font-weight: 750;
   font-size: 130px;
-  z-index: 1;
 }
 
 .T2 {
   position: absolute;
-  padding-top: 10%;
+  padding-top: 6%;
+  font-family: Harrington;
   color: #ffffff;
   font-weight: lighter;
   font-size: 130px;
-  z-index: 2;
 }
 
 .Contenedor-Boton {
