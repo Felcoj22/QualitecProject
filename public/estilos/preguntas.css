@@ -2,30 +2,39 @@ body {
   background: radial-gradient(circle, #5B4E9D, #3C3D48);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 .Contenedor {
-  background-image: url(../recursos/NubesPre.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   font-family: Montserrat;
 }
 
-.Contenedor-Texto {
+.Contenedor-Pregunta{
+  background-image: url(../recursos/NubesPre.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contenedor-Texto{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0% 30%;
+  padding: 0 600px;
   font-size: 56px;
   color: #EFCAFD;
 }
+  .InterPregunta1{
+    position: absolute;
+  }
 
   .MarcoPregunta{
     position: absolute;
@@ -34,11 +43,12 @@ body {
 
 .Contenedor-Boton{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-top: 16%;
 }
 
   .BotonSi {
+    cursor: pointer;
     background: linear-gradient(to bottom, #7377FF 12%, #5B4E9D);
     border-color: #707070;
     border: 0;
@@ -50,6 +60,7 @@ body {
     color: #FFFFFF;
   }
   .BotonNo{
+    cursor: pointer;
     background: linear-gradient(to bottom, #7377FF 12%, #5B4E9D);
     border-color: #707070;
     border: 0;
