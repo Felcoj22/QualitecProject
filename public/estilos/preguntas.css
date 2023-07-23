@@ -2,6 +2,7 @@ body {
   background: radial-gradient(circle, #5B4E9D, #3C3D48);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .Contenedor {
