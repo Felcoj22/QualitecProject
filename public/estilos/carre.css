@@ -1,8 +1,9 @@
 body {
-  background-color: #5B4E9D;
+  background-color: #443C8C;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  overflow: hidden;
 }
 
 h1 {
@@ -16,11 +17,6 @@ h1 {
   align-items: center;
 }
 
-.Contenedor-Imagen {
-  height: 100vh;
-  position: fixed;
-}
-
 .Contenedor-Titulo {
   display: flex;
   flex-direction: column;
@@ -30,7 +26,7 @@ h1 {
 
 .T1 {
   font-family: Montserrat;
-  color: rgba(255, 255, 255, 50%);
+  color: #EFCAFD;
   font-weight: 750;
   font-size: 130px;
 }
@@ -44,10 +40,26 @@ h1 {
   font-size: 130px;
 }
 
-.Contenedor-Boton {
-  background: linear-gradient(to bottom, #7377FF, #5B4E9D 25%);
-  margin-top: none;
-  padding: 15px 32px;
-  border-radius: 1rem;
-  box-shadow: 3px 3px 15px rgb(88, 88, 88);
+.Contenedor-Carreras1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 8%;
+  grid-gap: 0 24%;
+  justify-content: center;
+  align-items: center;
 }
+
+.Contenedor-Carreras2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2%;
+  grid-gap: 0 24%;
+  justify-content: center;
+  align-items: center;
+}
+
+  .Carre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
