@@ -2,6 +2,7 @@ body {
   background: radial-gradient(circle, #5B4E9D, #3C3D48);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .Contenedor {
@@ -13,7 +14,7 @@ body {
 }
 
 .Contenedor-Pregunta{
-  background-image: url(../recursos/NubesPre.png);
+  background-image: url(../recursos/Fondo.png);
   background-position: bottom;
   background-repeat: no-repeat;
   height: 100vh;
@@ -38,7 +39,7 @@ body {
 
   .MarcoPregunta{
     position: absolute;
-    padding-top: 8%;
+    padding-top: 6%;
   }
 
 .Contenedor-Boton{
