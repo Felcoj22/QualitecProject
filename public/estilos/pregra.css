@@ -1,10 +1,9 @@
 body {
-  background-image: url(../recursos/NubesCarre.png);
-  background-color: #7377FF;
+  background-image: url(../recursos/NubesPre.png);
+  background-color: #443C8C;
   background-repeat: no-repeat;
-  background-position: bottom;
   height: 100vh;
-  margin: 0;
+  overflow: hidden;
 }
 
 h1 {
@@ -26,37 +25,41 @@ h1 {
 }
 
 .T1 {
+  font-family: Montserrat;
+  color: #EFCAFD;
+  font-weight: 750;
+  font-size: 130px;
+}
+
+.T2 {
+  position: absolute;
+  padding-top: 6%;
   font-family: Harrington;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: lighter;
-  font-size: 140px;
+  font-size: 130px;
 }
 
-.Contenedor-BotonesInfo {
+.Contenedor-Carreras1{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-top: 8%;
+  grid-gap: 0 24%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contenedor-Carreras2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   padding-top: 2%;
-  grid-gap: 0 8%;
+  grid-gap: 0 24%;
   justify-content: center;
   align-items: center;
 }
 
-  .Contenedor-BotonesInfo img{
-    width: 460px;
-    height: auto;
-  }
-
-.Contenedor-BotonesInter {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-top: 10%;
-  grid-gap: 0 8%;
-  justify-content: center;
-  align-items: center;
-}
-
-  .BotonNav{
-    background: linear-gradient(to bottom, #7377FF, #5B4E9D 75%);
-    padding: 42px 171px;
-    border-radius: 1rem;
+  .Carre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
