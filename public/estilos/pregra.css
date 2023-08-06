@@ -1,0 +1,64 @@
+body {
+  background-image: url(../recursos/NubesPre.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+}
+
+.Contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contenedor-Titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.T1 {
+  font-family: Montserrat;
+  color: #443C8C;
+  font-weight: 750;
+  font-size: 130px;
+}
+
+.T2 {
+  position: absolute;
+  padding-top: 6%;
+  font-family: Harrington;
+  color: #7377FF;
+  font-weight: lighter;
+  font-size: 130px;
+}
+
+.Contenedor-Carreras1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 8%;
+  grid-gap: 0 24%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contenedor-Carreras2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2%;
+  grid-gap: 0 24%;
+  justify-content: center;
+  align-items: center;
+}
+
+  .Carre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

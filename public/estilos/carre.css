@@ -1,0 +1,176 @@
+body {
+  background-image: url(../recursos/NubesCarrea1.png);
+  background-color: #7377FF;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: montserrat;
+}
+
+.Contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contenedor-Titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.T1 {
+  font-family: Harrington;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 140px;
+}
+
+.Contenedor-BotonesInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 6%;
+  grid-gap: 0 6%;
+  justify-content: center;
+  align-items: center;
+}
+
+  .Contenedor-BotonesInfo img{
+    width: 460px;
+    height: auto;
+  }
+
+  .overlayContenido{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+    .contenido{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      box-shadow: 10px 10px 50px rgb(239, 202, 253);
+      border-radius: 40px;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: montserrat;
+    }
+    .contenido_titulo{
+      background: linear-gradient(to right, #EFCAFD, #7377FF 75%);
+      color: #FFFFFF;
+      padding: 25px 175px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+    }
+
+    .contenido_infoC{
+      padding-right: 100px;
+      font-size: 25px;
+      font-weight: bolder;
+      color: #443C8C;
+    }
+      .contenido_infoC p{
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+      }
+
+      .contenido_infoC img {
+        padding-right: 20px;
+      }
+
+      .contenido_infoC hr{
+        width: 135%;
+      }
+
+    .contenido_infoE{
+      width: 375px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      font-size: 25px;
+      font-weight: bolder;
+      color: #443C8C;
+    }
+
+      .contenido_infoE p {
+        display: flex;
+        text-align: center;
+      }
+
+    .contenido_infoU {
+      padding-right: 25px;
+      font-size: 25px;
+      font-weight: bolder;
+    }
+
+      .contenido_infoU p {
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+      }
+
+      .contenido_infoU a{
+        text-decoration: none;
+        color: #443C8C;
+      }
+
+      .contenido_infoU img {
+        padding-right: 20px;
+      }
+
+      .contenido_infoU hr {
+        width: 105%;
+      }
+
+    .cerrarPopUp{
+      display: block;
+      background: linear-gradient(to bottom, #EFCAFD, #7377FF 75%);
+      text-align: center;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      padding: 14px 28px;
+      border-radius: 25px;
+      color: #FFFFFF;
+    }
+
+.Contenedor-BotonesInter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 8%;
+  grid-gap: 0 46%;
+  justify-content: center;
+  align-items: center;
+}
+
+  .BotonNav{
+    background: linear-gradient(to bottom, #7377FF, #5B4E9D 75%);
+    padding: 20px 80px;
+    border-radius: 1rem;
+    font-size: 24px;
+  }
+
+  .BotonRei{
+    background: linear-gradient(to bottom, #7377FF, #5B4E9D 75%);
+    padding: 12px 40px;
+    border-radius: 1rem;
+  }
+    .BotonRei img{
+      width: 48px;
+    }

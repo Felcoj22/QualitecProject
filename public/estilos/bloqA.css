@@ -1,6 +1,6 @@
 body{
   background-color: #EFCAFD;
-  background-image: url(../recursos/OlasBA.png);
+  background-image: url(../recursos/NubesBA.png);
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
@@ -30,7 +30,7 @@ body{
 .T1 {
   position: absolute;
   font-family: Montserrat;
-  color: #E2B2F5;
+  color: #7377FF;
   font-weight: 750;
   font-size: 200px;
   z-index: 1;
@@ -39,7 +39,7 @@ body{
 .T2 {
   position: absolute;
   padding-top: 10%;
-  color: #ffffff;
+  color: #443C8C;
   font-weight: lighter;
   font-size: 200px;
   z-index: 2;
