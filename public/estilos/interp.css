@@ -44,9 +44,13 @@
 }
 
 .Contenedor-Boton {
-  position: relative;
-  background: linear-gradient(to bottom, #7377FF, #5B4E9D 25%);
-  padding: 15px 32px;
-  border-radius: 1rem;
-  box-shadow: 3px 3px 15px rgb(88, 88, 88);
+  padding-bottom: 4%;
 }
+
+  .Boton {
+    position: relative;
+    background: linear-gradient(to bottom, #7377FF, #5B4E9D 25%);
+    padding: 15px 32px;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 15px rgb(88, 88, 88);
+  }
