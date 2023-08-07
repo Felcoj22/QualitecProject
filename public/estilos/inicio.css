@@ -24,7 +24,7 @@ h1 {
 }
 
 .Boton_Comenzar {
-    background: linear-gradient(to bottom, #EFCAFD, #fdafdc 25%);
+    background: linear-gradient(to bottom, #EFCAFD, #fdafdc 75%);
     margin-top: none;
     padding: 15px 32px;
     border-radius: 1rem;
