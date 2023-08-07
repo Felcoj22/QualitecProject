@@ -27,16 +27,30 @@ h1 {
 }
 
 .T1 {
+  padding: 4%;
+  color: #443C8C;
+  font-size: 140px;
+}
+.T2 {
+  position: absolute;
   font-family: Harrington;
-  color: #FFFFFF;
   font-weight: lighter;
+  padding-top: 12%;
+  color: #FFFFFF;
+  font-size: 140px;
+}
+.T3 {
+  padding: 4%;
+  font-family: Harrington;
+  font-weight: lighter;
+  color: #FFFFFF;
   font-size: 140px;
 }
 
 .Contenedor-BotonesInfo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 6%;
+  padding-top: 4%;
   grid-gap: 0 6%;
   justify-content: center;
   align-items: center;
@@ -153,7 +167,7 @@ h1 {
 .Contenedor-BotonesInter {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 8%;
+  padding-top: 4%;
   grid-gap: 0 46%;
   justify-content: center;
   align-items: center;

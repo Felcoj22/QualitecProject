@@ -32,7 +32,7 @@ h1 {
 
 .T2 {
   position: absolute;
-  padding-top: 6%;
+  padding-top: 8%;
   font-family: Harrington;
   color: #7377FF;
   font-weight: lighter;
@@ -42,8 +42,8 @@ h1 {
 .Contenedor-Carreras1{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 8%;
-  grid-gap: 0 24%;
+  padding-top: 6%;
+  grid-gap: 0 30%;
   justify-content: center;
   align-items: center;
 }
@@ -51,8 +51,8 @@ h1 {
 .Contenedor-Carreras2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 2%;
-  grid-gap: 0 24%;
+  padding-top: 4%;
+  grid-gap: 0 50%;
   justify-content: center;
   align-items: center;
 }
