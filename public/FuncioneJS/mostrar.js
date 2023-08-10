@@ -10,6 +10,12 @@ function mosP4(){
   window.location.href = "#P4";
 }
 
+//---------------------------------
+
+function mosP5() {
+  window.location.href = "#P5"
+}
+
 function mosP6(){
   window.location.href = "#P6";
 }
@@ -22,3 +28,38 @@ function mosP8(){
   window.location.href = "#P8";
 }
 
+//---------------------------------
+
+function mosP9() {
+  window.location.href = "#P9"
+}
+
+function mosP10(){
+  window.location.href = "#P10";
+}
+
+function mosP11(){
+  window.location.href = "#P11";
+}
+
+function mosP12(){
+  window.location.href = "#P12";
+}
+
+//---------------------------------
+
+function mosP13() {
+  window.location.href = "#P13"
+}
+
+function mosP14(){
+  window.location.href = "#P14";
+}
+
+function mosP15(){
+  window.location.href = "#P15";
+}
+
+function mosP16(){
+  window.location.href = "#P16";
+}
