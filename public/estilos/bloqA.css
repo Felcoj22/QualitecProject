@@ -46,7 +46,7 @@ body{
 }
 
 .Contenedor-Boton {
-  background: linear-gradient(to bottom, #7377FF, #5B4E9D 25%);
+  background: linear-gradient(to bottom, #7377FF, #5B4E9D 75%);
   margin-top: none;
   padding: 15px 32px;
   border-radius: 1rem;
