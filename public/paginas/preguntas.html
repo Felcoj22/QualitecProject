@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../estilos/styles.css" />
   <link rel="stylesheet" href="../estilos/preguntas.css" />
   <script src="/public/FuncioneJS/mostrar.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -24,8 +25,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP2()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP2()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP2(), respuesta('si')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP2(), respuesta('no')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P2">
@@ -37,8 +38,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP3()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP3()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP3(), respuesta('si')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP3(), respuesta('no')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P3">
@@ -50,8 +51,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP4()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP4()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP4(), respuesta('si')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP4(), respuesta('no')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P4">
@@ -63,8 +64,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP5()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP5()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="respuesta('si')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="respuesta('no')">No</button>
         </div>
       </div>
       <!-- -------------------------------------------------------------- -->
@@ -77,8 +78,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP6()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP6()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP6(), respuesta('si2')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP6(), respuesta('no2')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P6">
@@ -90,8 +91,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP7()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP7()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP7(), respuesta('si2')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP7(), respuesta('no2')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P7">
@@ -103,8 +104,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP8()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP8()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP8(), respuesta('si2')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP8(), respuesta('no2')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P8">
@@ -116,8 +117,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP9()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP9()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="respuesta('si2')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="respuesta('no2')">No</button>
         </div>
       </div>
       <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
@@ -130,8 +131,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP10()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP10()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP10(), respuesta('si3')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP10(), respuesta('no3')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P10">
@@ -143,8 +144,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP11()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP11()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP11(), respuesta('si3')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP11(), respuesta('no3')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P11">
@@ -156,8 +157,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP12()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP12()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP12(), respuesta('si3')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP12(), respuesta('no3')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P12">
@@ -169,8 +170,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP13()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP13()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="respuesta('si3')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="respuesta('no3')">No</button>
         </div>
       </div>
       <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
@@ -183,8 +184,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP14()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP14()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP14(), respuesta('si4')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP14(), respuesta('no4')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P14">
@@ -196,8 +197,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP15()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP15()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP15(), respuesta('si4')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP15(), respuesta('no4')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P15">
@@ -209,8 +210,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="mosP16()">Si</button>
-          <button class="BotonNo" type="button" onclick="mosP16()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="mosP16(), respuesta('si4')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="mosP16(), respuesta('no4')">No</button>
         </div>
       </div>
       <div class="Contenedor-Pregunta" id="P16">
@@ -222,10 +223,11 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="resul()">Si</button>
-          <button class="BotonNo" type="button" onclick="resul()">No</button>
+          <button id="siB" class="BotonSi" type="button" onclick="respuesta('si4')">Si</button>
+          <button id="noB" class="BotonNo" type="button" onclick="respuesta('no4')">No</button>
         </div>
       </div>
     </div>
   </main>
+  <script src="/public/FuncioneJS/respuesta.js"></script>
 </body>
