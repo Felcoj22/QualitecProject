@@ -1,53 +1,53 @@
-function mosP2(){
-  window.location.href = "#P2";
+function mosP2() {
+  document.querySelector("#P2").scrollIntoView();
 }
 
 function mosP3(){
-  window.location.href = "#P3";
+  document.querySelector("#P3").scrollIntoView();
 }
 
 function mosP4(){
-  window.location.href = "#P4";
+  document.querySelector("#P4").scrollIntoView();
 }
 
 //---------------------------------
 
 function mosP6(){
-  window.location.href = "#P6";
+  document.querySelector("#P6").scrollIntoView();
 }
 
 function mosP7(){
-  window.location.href = "#P7";
+  document.querySelector("#P7").scrollIntoView();
 }
 
 function mosP8(){
-  window.location.href = "#P8";
+  document.querySelector("#P8").scrollIntoView();
 }
 
 //---------------------------------
 
 function mosP10(){
-  window.location.href = "#P10";
+  document.querySelector("#P10").scrollIntoView();
 }
 
 function mosP11(){
-  window.location.href = "#P11";
+  document.querySelector("#P11").scrollIntoView();
 }
 
 function mosP12(){
-  window.location.href = "#P12";
+  document.querySelector("#P12").scrollIntoView();
 }
 
 //---------------------------------
 
 function mosP14(){
-  window.location.href = "#P14";
+  document.querySelector("#P14").scrollIntoView();
 }
 
 function mosP15(){
-  window.location.href = "#P15";
+  document.querySelector("#P15").scrollIntoView();
 }
 
 function mosP16(){
-  window.location.href = "#P16";
+  document.querySelector("#P16").scrollIntoView();
 }
