@@ -10,7 +10,9 @@ function mosP4(){
   document.querySelector("#P4").scrollIntoView();
 }
 
-//---------------------------------
+function mosP5(){
+  document.querySelector("#P5").scrollIntoView();
+}
 
 function mosP6(){
   document.querySelector("#P6").scrollIntoView();
@@ -24,7 +26,9 @@ function mosP8(){
   document.querySelector("#P8").scrollIntoView();
 }
 
-//---------------------------------
+function mosP9(){
+  document.querySelector("#P9").scrollIntoView();
+}
 
 function mosP10(){
   document.querySelector("#P10").scrollIntoView();
@@ -38,7 +42,9 @@ function mosP12(){
   document.querySelector("#P12").scrollIntoView();
 }
 
-//---------------------------------
+function mosP13(){
+  document.querySelector("#P13").scrollIntoView();
+}
 
 function mosP14(){
   document.querySelector("#P14").scrollIntoView();

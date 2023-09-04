@@ -9,7 +9,7 @@
   <title>Qualitec</title>
   <link rel="stylesheet" href="../estilos/styles.css" />
   <link rel="stylesheet" href="../estilos/preguntas.css" />
-  <script src="/public/FuncioneJS/mostrar.js"></script>
+  <script src="../FuncioneJS/mostrar.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
@@ -64,8 +64,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="respuesta('si')">Si</button>
-          <button class="BotonNo" type="button" onclick="respuesta('no')">No</button>
+          <button class="BotonSi" type="button" onclick="mosP5(), respuesta('si')">Si</button>
+          <button class="BotonNo" type="button" onclick="mosP5(), respuesta('no')">No</button>
         </div>
       </div>
       <!-- -------------------------------------------------------------- -->
@@ -117,8 +117,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="respuesta('si2')">Si</button>
-          <button class="BotonNo" type="button" onclick="respuesta('no2')">No</button>
+          <button class="BotonSi" type="button" onclick="mosP9(), respuesta('si2')">Si</button>
+          <button class="BotonNo" type="button" onclick="mosP9(), respuesta('no2')">No</button>
         </div>
       </div>
       <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
@@ -170,8 +170,8 @@
           <img class="MarcoPregunta" src="../recursos/MarcoPre.png">
         </div>
         <div class="Contenedor-Boton">
-          <button class="BotonSi" type="button" onclick="respuesta('si3')">Si</button>
-          <button class="BotonNo" type="button" onclick="respuesta('no3')">No</button>
+          <button class="BotonSi" type="button" onclick="mosP13(), respuesta('si3')">Si</button>
+          <button class="BotonNo" type="button" onclick="mosP13(), respuesta('no3')">No</button>
         </div>
       </div>
       <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
@@ -229,5 +229,5 @@
       </div>
     </div>
   </main>
-  <script src="/public/FuncioneJS/respuesta.js"></script>
+  <script src="../FuncioneJS/respuesta.js"></script>
 </body>
