@@ -23,10 +23,10 @@ h1 {
     margin-bottom: 2%;
 }
 
-.Boton_Comenzar {
-    background: linear-gradient(to bottom, #EFCAFD, #fdafdc 75%);
-    margin-top: none;
-    padding: 15px 32px;
-    border-radius: 1rem;
-    box-shadow: 3px 3px 15px rgb(88, 88, 88);
-}
+    .Boton{
+        background: linear-gradient(to bottom, #EFCAFD, #fdafdc 75%);
+        margin-top: none;
+        padding: 15px 32px;
+        border-radius: 1rem;
+        box-shadow: 3px 3px 15px rgb(88, 88, 88);
+    }
