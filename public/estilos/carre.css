@@ -88,7 +88,7 @@ h1 {
     .contenido_titulo{
       background: linear-gradient(to right, #EFCAFD, #7377FF 75%);
       color: #FFFFFF;
-      padding: 25px 175px;
+      padding: 25px 225px;
       border-top-left-radius: 40px;
       border-top-right-radius: 40px;
     }
@@ -110,7 +110,7 @@ h1 {
       }
 
       .contenido_infoC hr{
-        width: 135%;
+        width: 112%;
       }
 
     .contenido_infoE{
