@@ -24,7 +24,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 14%;
+  padding-top: 12%;
 }
 
 .T1 {
@@ -45,8 +45,36 @@ body{
   z-index: 2;
 }
 
+@media (max-width: 1440px) {
+  body {
+    background-color: #EFCAFD;
+    background-image: url(../recursos/NubesBA1440_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .T1 {
+      position: absolute;
+      font-family: Montserrat;
+      color: #7377FF;
+      font-weight: 750;
+      font-size: 150px;
+      z-index: 1;
+    }
+  
+  .T2 {
+    position: absolute;
+    padding-top: 10%;
+    color: #443C8C;
+    font-weight: lighter;
+    font-size: 150px;
+    z-index: 2;
+  }
+}
+
 .Contenedor-Boton {
-  padding-bottom: 4%;
+  padding-top: 16%;
 }
 
 .Boton {

@@ -14,7 +14,7 @@ body {
 }
 
 .Contenedor-Pregunta{
-  background-image: url(../recursos/Fondo.png);
+  background-image: url(../recursos/FondoPregDef.png);
   background-position: bottom;
   background-repeat: no-repeat;
   height: 100vh;
@@ -22,6 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 
 .Contenedor-Texto{
@@ -41,6 +42,29 @@ body {
     position: absolute;
     padding-top: 6%;
   }
+  
+@media (max-width: 1440px) {
+  .Contenedor-Pregunta {
+    background-image: url(../recursos/FondoPregDef1440.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contenedor-Texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 480px;
+    font-size: 38px;
+    color: #EFCAFD;
+  }
+}
 
 .Contenedor-Boton{
   display: flex;

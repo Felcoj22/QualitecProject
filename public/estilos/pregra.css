@@ -62,3 +62,55 @@ h1 {
     justify-content: center;
     align-items: center;
   }
+
+@media (max-width: 1440px) {
+  body {
+    background-image: url(../recursos/NubesPre1440.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .T1 {
+    font-family: Montserrat;
+    color: #443C8C;
+    font-weight: 750;
+    font-size: 100px;
+  }
+
+  .T2 {
+    position: absolute;
+    padding-top: 8%;
+    font-family: Harrington;
+    color: #7377FF;
+    font-weight: lighter;
+    font-size: 100px;
+  }
+
+  .Contenedor-Carreras1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 6%;
+    grid-gap: 0 30%;
+    justify-content: center;
+    align-items: center;
+  }
+    .Contenedor-Carreras1 img {
+      width: 170%;
+      height: auto;
+    }
+
+  .Contenedor-Carreras2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 4%;
+    grid-gap: 0 40%;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .Contenedor-Carreras2 img {
+      width: 120%;
+      height: auto;
+    }
+}

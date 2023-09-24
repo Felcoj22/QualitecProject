@@ -167,7 +167,7 @@ h1 {
 .Contenedor-BotonesInter {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 4%;
+  padding-top: 6%;
   grid-gap: 0 46%;
   justify-content: center;
   align-items: center;
@@ -175,16 +175,180 @@ h1 {
 
   .BotonNav{
     background: linear-gradient(to bottom, #7377FF, #5B4E9D 75%);
-    padding: 20px 80px;
+    padding: 25px 100px;
     border-radius: 1rem;
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .BotonRei{
     background: linear-gradient(to bottom, #7377FF, #5B4E9D 75%);
-    padding: 12px 40px;
+    padding: 15px 50px;
     border-radius: 1rem;
   }
     .BotonRei img{
-      width: 48px;
+      width: 60px;
     }
+
+
+@media (max-width: 1440px) {
+  body {
+    background-image: url(../recursos/NubesCarrera1440.png);
+    background-color: #7377FF;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .T1 {
+    padding: 4%;
+    color: #443C8C;
+    font-size: 90px;
+  }
+
+  .T2 {
+    position: absolute;
+    font-family: Harrington;
+    font-weight: lighter;
+    padding-top: 12%;
+    color: #FFFFFF;
+    font-size: 90px;
+  }
+
+  .T3 {
+    padding: 4%;
+    font-family: Harrington;
+    font-weight: lighter;
+    color: #FFFFFF;
+    font-size: 90px;
+  }
+
+  .Contenedor-BotonesInfo img {
+    width: 340px;
+    height: auto;
+  }
+
+  .Contenedor-BotonesInter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 6%;
+    grid-gap: 0 46%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .BotonNav {
+    background: linear-gradient(to bottom, #7377FF, #5B4E9D 75%);
+    padding: 15px 60px;
+    border-radius: 1rem;
+    font-size: 24px;
+  }
+
+  .BotonRei {
+    background: linear-gradient(to bottom, #7377FF, #5B4E9D 75%);
+    padding: 9px 30px;
+    border-radius: 1rem;
+  }
+
+  .BotonRei img {
+    width: 36px;
+  }
+
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 10px 10px 50px rgb(239, 202, 253);
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: montserrat;
+  }
+
+    .contenido_titulo {
+      background: linear-gradient(to right, #EFCAFD, #7377FF 75%);
+      color: #FFFFFF;
+      padding: 18px 168px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+    }
+
+    .contenido_infoC {
+      padding-right: 75px;
+      font-size: 18px;
+      font-weight: bolder;
+      color: #443C8C;
+    }
+
+    .contenido_infoC p {
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .contenido_infoC img {
+      width: auto;
+      height: 60px;
+      padding-right: 20px;
+    }
+
+    .contenido_infoC hr {
+      width: 112%;
+    }
+
+    .contenido_infoE {
+      width: 412px;
+      padding-top: 30px;
+      padding-bottom: 15px;
+      font-size: 20px;
+      font-weight: bolder;
+      color: #443C8C;
+    }
+
+    .contenido_infoE p {
+      display: flex;
+      text-align: center;
+    }
+
+    .contenido_infoU {
+      padding-right: 18px;
+    }
+
+    .contenido_infoU p {
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .contenido_infoU a {
+      text-decoration: none;
+      font-size: 20px;
+      color: #443C8C;
+    }
+
+    .contenido_infoU img {
+      width: auto;
+      height: 60px;
+      padding-right: 20px;
+    }
+
+    .contenido_infoU hr {
+      width: 105%;
+    }
+
+    .cerrarPopUp {
+      display: block;
+      background: linear-gradient(to bottom, #EFCAFD, #7377FF 75%);
+      text-align: center;
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      padding: 10px 22px;
+      border-radius: 18px;
+      color: #FFFFFF;
+    }
+}

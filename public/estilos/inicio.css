@@ -1,13 +1,13 @@
 body {
     background-image: url("../recursos/Backgroung.png"), linear-gradient(to bottom, #5B4E9D 50%, #EFCAFD);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 h1 {
     color: white;
-    font-size: 170px;
+    font-size: 220px;
     font-weight: lighter;
 }
 
@@ -20,13 +20,32 @@ h1 {
 }
 
 .Inicio_Titulo {
-    margin-bottom: 2%;
+    margin-top: 7%;
+}
+
+.Boton_Comenzar{
+    margin-top: 4%;
 }
 
     .Boton{
-        background: linear-gradient(to bottom, #EFCAFD, #fdafdc 75%);
+        background: linear-gradient(to bottom, #EFCAFD, #EFAFFD 75%);
         margin-top: none;
         padding: 15px 32px;
         border-radius: 1rem;
         box-shadow: 3px 3px 15px rgb(88, 88, 88);
     }
+
+@media (max-width: 1440px) {
+body {
+        background-image: url("../recursos/Background1440.png"), linear-gradient(to bottom, #5B4E9D 50%, #EFCAFD);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+h1 {
+    color: white;
+    font-size: 170px;
+    font-weight: lighter;
+}
+}
