@@ -23,6 +23,18 @@ h1 {
     margin-top: 7%;
 }
 
+.contenedor-Texto{
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
 .Boton_Comenzar{
     margin-top: 4%;
 }

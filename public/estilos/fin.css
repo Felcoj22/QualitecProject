@@ -1,0 +1,71 @@
+body {
+  background-image: url("../recursos/Backgroung.png"), linear-gradient(to bottom, #5B4E9D 50%, #EFCAFD);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-size: 220px;
+  font-weight: lighter;
+}
+
+.Contenedor {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-Texto {
+  display: flex;
+  width: 75vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.Boton_Comenzar {
+  margin-top: 4%;
+}
+
+.Boton {
+  background: linear-gradient(to bottom, #EFCAFD, #EFAFFD 75%);
+  margin-top: none;
+  padding: 15px 32px;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 15px rgb(88, 88, 88);
+}
+
+@media (max-width: 1440px) {
+  body {
+    background-image: url("../recursos/Background1440.png"), linear-gradient(to bottom, #5B4E9D 50%, #EFCAFD);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  h1 {
+    color: white;
+    font-size: 165px;
+    font-weight: lighter;
+  }
+  
+  .contenedor-Texto {
+    display: flex;
+    width: 75vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+  }
+}
