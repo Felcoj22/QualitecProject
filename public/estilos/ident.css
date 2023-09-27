@@ -68,7 +68,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 24%;
+    padding-top: 30%;
   }
 
   .Contenedor-Imagen {
@@ -96,7 +96,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 4%;
-    font-size: 20px;
+    font-size: 28px;
     color: #7377FF;
     text-align: center;
     font-family: Montserrat;

@@ -35,15 +35,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 4%;
+  padding-top: 2%;
   font-family: Montserrat;
   text-align: center;
   font-size: 50px;
   color: #7377FF;
 }
 
+.P1 {
+  padding-top: 2%;
+}
+
 .P2 {
-  padding-top: 8%;
+  padding-top: 4%;
   padding-bottom: 12%;
 }
 
